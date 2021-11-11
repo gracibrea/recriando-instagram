@@ -24,7 +24,7 @@ body {
     justify-content:start; /*alinhamento horizontal*/
     width: 60%;
     height: 100vh; 
-    margin-left: -20%; /*sem esse valor os elementos não centralizam na tela*/
+    margin-right: 20%; /*sem essa margem os elementos não centralizam na tela*/
 }
 
 .instagram-phone {
