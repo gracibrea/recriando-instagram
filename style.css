@@ -21,7 +21,7 @@ body {
 .instagram-wrapper {
     display: flex; /*mantém as duas colunas lado a lado*/
     align-items: center; /*alinhamento vertical dos íten, eixo y*/
-    justify-content:start; /*alinhamento horizontal*/
+    justify-content:start; /*alinhamento horizontal à esquerda*/
     width: 60%;
     height: 100vh; 
     margin-right: 20%; /*sem essa margem os elementos não centralizam na tela*/
@@ -133,7 +133,7 @@ body {
     background-image: url('/img/googleplay-button.png');
 }
 
-/*media queries*/
+/*media queries - responsividade*/
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
